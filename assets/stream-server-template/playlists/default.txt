@@ -1,0 +1,2 @@
+# Add files with:
+# stream add /path/to/video.mp4

@@ -1,0 +1,24 @@
+{
+  "name": "vps-stream-server",
+  "version": "0.1.0",
+  "description": "Plan and scaffold production-style Ubuntu VPS livestream systems with FFmpeg, systemd, playlists, profiles, and RTMP targets.",
+  "author": {
+    "name": "Local developer"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "VPS Stream Server",
+    "shortDescription": "Scaffold managed FFmpeg livestream servers for Ubuntu VPS hosts.",
+    "longDescription": "VPS Stream Server helps Codex design and generate a structured Ubuntu livestream stack with playlists, quality profiles, encoder detection, RTMP targets, service recovery, logs, and optional dashboard guidance.",
+    "developerName": "Local developer",
+    "category": "Productivity",
+    "capabilities": [
+      "streaming",
+      "ffmpeg",
+      "ubuntu",
+      "systemd",
+      "rtmp"
+    ],
+    "defaultPrompt": "Help me build an Ubuntu VPS livestream system."
+  }
+}
