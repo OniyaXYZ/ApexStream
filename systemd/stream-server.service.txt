@@ -1,0 +1,13 @@
+[Unit]
+Description=ApexStream Server
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/apexstream
+ExecStart=/bin/bash scripts/start.sh
+Restart=always
+User=root
+
+[Install]
+WantedBy=multi-user.target
